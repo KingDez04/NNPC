@@ -23,10 +23,10 @@ const NavBar = () => {
     setNav(false);
   };
   return (
-    <nav className="relative block bg-white">
+    <nav className="relative block bg-white font-textFont">
       <div
         className={`flex items-center justify-between h-[72px] shadow-md shadow-gray-400 px-[42px] ease-in-out duration-700 ${
-          nav ? "ml-52" : "ml-0"
+          nav ? "md:ml-52" : "ml-0"
         }`}
       >
         <div className="text-[20.94px] font-bold leading-normal">

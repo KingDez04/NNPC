@@ -4,7 +4,7 @@ const NotFound = () => {
   const navigate = useNavigate();
   const handleClick = () => navigate("/dashboard");
   return (
-    <div className="text-center p-3 mt-20">
+    <div className="text-center p-3 mt-20 font-headingsFont">
       <h1 className="text-5xl md:text-7xl mb-3">404 Not Found</h1>
       <p>The page you visited was not found.</p>
       <button

@@ -41,7 +41,7 @@ const Login = () => {
       });
   };
   return (
-    <div className="flex justify-center items-center h-screen">
+    <div className="flex justify-center items-center h-screen font-textFont">
       <div className="border-[#192F3D] border-[0.2px] rounded-[20px] h-[442px] w-[596px]">
         <div className="flex flex-col pt-[31px] px-[53px] items-center gap-[32px]">
           <div>
